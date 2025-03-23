@@ -1,0 +1,32 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+  
+  .modal {
+    background: #1f1f1f;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+  }
+  
+  .modal button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background: darkred;
+  }
+  

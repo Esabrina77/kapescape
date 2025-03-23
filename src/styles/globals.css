@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+}
